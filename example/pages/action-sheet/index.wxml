@@ -25,6 +25,7 @@
     show="{{ show3 }}"
     actions="{{ action1 }}"
     cancel-text="取消"
+    bind:cancel="toggleActionSheet3"
     bind:close="toggleActionSheet3"
   >
   </van-action-sheet>
